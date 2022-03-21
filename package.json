@@ -1,0 +1,23 @@
+{
+  "name": "node-express-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "10-fs-sync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JK1320/node-express-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JK1320/node-express-tutorial/issues"
+  },
+  "homepage": "https://github.com/JK1320/node-express-tutorial#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "lodash": "^4.17.21"
+  }
+}

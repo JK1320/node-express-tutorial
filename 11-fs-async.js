@@ -1,6 +1,7 @@
 // fs module (Async) - this method works with call back
 
 const { readFile, writeFile } = require("fs");
+console.log("start");
 
 readFile("./content/first.txt", "utf8", (err, result) => {
   if (err) {
@@ -22,8 +23,9 @@ readFile("./content/first.txt", "utf8", (err, result) => {
           console.log(err);
           return;
         }
-        console.log(result);
+        console.log("done with task");
       }
     );
   });
 });
+console.log("starting next one");
