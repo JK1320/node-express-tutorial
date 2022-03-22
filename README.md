@@ -4,9 +4,9 @@
 ## npm - node package manager
 ----* when node is installed npm(global command) is also installed with it *------ (npmjs.com)
               npm enables us to do 3 things:
-- use our code in other projects
-- use code written by other developers
-- share our solutions with others
+-1 use our code in other projects
+-2 use code written by other developers
+-3 share our solutions with others
 
 * npm calls reusable code a package
 * package is a folder that contains a javascript code
@@ -14,12 +14,14 @@
 * anyone can publish any package 
 
 
-* local dependency: use it only in this particular project
-* npm i <packageName>     <= use this command to install a package
+>     local dependency: use it only in this particular project
+>     npm i <packageName>     <= use this command to install a package
 
-* global dependency: use it in any project
+> global dependency: use it in any project
   npm install -g <packageName>        <= use this command to install a package globally
   sudo npm install -g <packageName>    (mac)
+
+  (To uninstall a package command: npm uninstall <packageName>)
 
 --------------
 ### package.json
@@ -28,5 +30,9 @@
    - manual approach: create package.json in the root, then create properties etc
    - npm init   <= command to install package.json
    - npm init -y (everything setup as default - skips all the questions)
+
+-------
+#### Nodemon
+npm i nodemon -D    <= command to install nodemon at devDependencies
 
 
