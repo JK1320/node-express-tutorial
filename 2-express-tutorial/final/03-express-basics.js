@@ -18,10 +18,11 @@ app.listen(5000, () => {
   console.log('server is listening on port 5000...')
 })
 
-// app.get
-// app.post
-// app.put
-// app.delete
-// app.all
-// app.use
-// app.listen
+
+//app.get - read data
+//app.post - insert data
+//app.put - update data
+//app.delete 
+//app.all
+//app.use - responsible for middleware
+//app.listen
