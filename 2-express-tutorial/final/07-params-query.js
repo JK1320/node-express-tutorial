@@ -1,3 +1,5 @@
+// route params & query params
+
 const express = require('express')
 const app = express()
 const { products } = require('./data')
