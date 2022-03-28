@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 
 //  req => middleware => res
+// middleware are functions
+// when using middleware must use next()
 
 const logger = (req, res, next) => {
   const method = req.method
