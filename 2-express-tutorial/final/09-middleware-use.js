@@ -3,6 +3,7 @@ const app = express()
 const logger = require('./logger')
 const authorize = require('./authorize')
 //  req => middleware => res
+// when using more than one middleware => put them in an array
 app.use([logger, authorize])
 // api/home/about/products
 app.get('/', (req, res) => {
