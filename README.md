@@ -31,8 +31,15 @@
    - npm init   <= command to install package.json
    - npm init -y (everything setup as default - skips all the questions)
 
--------
+-----------------
 #### Nodemon
 npm i nodemon -D    <= command to install nodemon at devDependencies
 
+------------------
+##### 
 
+Had the following error while testing express route @ auth.js and solved it by using if statement with else, as I was using if statement without else (short form of if statement)
+  
+-- Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client --
+
+-------------------
