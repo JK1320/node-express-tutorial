@@ -6,7 +6,7 @@ let { people } = require('./data')
 app.use(express.static('./methods-public'))
 // parse form data
 app.use(express.urlencoded({ extended: false }))
-// parse json
+// parse json - to handle the incoming data -
 app.use(express.json())
 
 app.get('/api/people', (req, res) => {
