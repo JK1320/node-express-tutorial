@@ -37,6 +37,7 @@ app.get('/api/products/:productID/reviews/:reviewID', (req, res) => {
   res.send('hello world')
 })
 //----------------------------------
+//url params sort data    -type in url: localhost:5000/api/query?search=a&limit=1
 
 app.get('/api/v1/query', (req, res) => {
   // console.log(req.query)
@@ -58,6 +59,7 @@ app.get('/api/v1/query', (req, res) => {
   res.status(200).json(sortedProducts)
 })
 //-------------------------------------
+
 app.listen(5000, () => {
   console.log('Server is listening on port 5000....')
 })
