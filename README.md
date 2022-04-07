@@ -44,4 +44,7 @@ Had the following error while testing express route @ auth.js and solved it by u
 
 -------------------
 ######
-MongoDB                 - first project Task Manager
+- MongoDB                 - first project Task Manager
+- mongoose installed => npm install mongoose
+- .env file is to store confidential info: passwords etc then include .env file in .gitignore
+- any file in gitignore is not pushed to github
