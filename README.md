@@ -1,5 +1,5 @@
 # node-express-tutorial project (freeCodeCamp.org)
-
+CRUD => CREATE, READ, UPDATE, DELETE
 
 ## npm - node package manager
 ----* when node is installed npm(global command) is also installed with it *------ (npmjs.com)
@@ -44,7 +44,11 @@ Had the following error while testing express route @ auth.js and solved it by u
 
 -------------------
 ######
-- MongoDB  Atlas (cloud database)               - first project Task Manager
+- MongoDB  Atlas (cloud database) - NoSQL              - first project Task Manager
+- steps for Atlas
+    * create an atlas account: sign up, create cluster (shared one), select cloud provider, No change to Cluster tier & Additional settings, cluster name as project name - no spaces, select who can access database, set up network access, go back to cluster and connect & select connect your application, copy the connection string (generated from connection) for database connection.
+    * select collection, 
+
 - mongoose installed => npm install mongoose
 - .env file is to store confidential info: passwords etc then include .env file in .gitignore
 - any file in gitignore is not pushed to github
