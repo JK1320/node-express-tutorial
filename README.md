@@ -52,5 +52,5 @@ Had the following error while testing express route @ auth.js and solved it by u
 - mongoose installed => npm install mongoose      (data modeling library)
 - import mongoose
 - use connect method of mongoose with connection string: mongoose.connect()
-- .env file is to store confidential info: passwords etc then include .env file in .gitignore
+- dotenv (.env)(npm install npm) file is to store confidential info: passwords etc then include dotenv file in .gitignore
 - any file in gitignore is not pushed to github

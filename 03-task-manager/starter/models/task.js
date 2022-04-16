@@ -1,7 +1,8 @@
-const mongoose = require('mongoose'); // import mongoose
+const mongoose = require('mongoose'); // import mongoose & use to create tables
 
 const TaskSchema = new mongoose.Schema({
-    // add validation to schema to check both properties with values are included
+  // add validation to schema to check both properties with values are included
+  // table column: name, completed
   name: {
     type: String,
     required: [true, "must provide name"],
