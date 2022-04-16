@@ -47,8 +47,10 @@ Had the following error while testing express route @ auth.js and solved it by u
 - MongoDB  Atlas (cloud database) - NoSQL              - first project Task Manager
 - steps for Atlas
     * create an atlas account: sign up, create cluster (shared one), select cloud provider, No change to Cluster tier & Additional settings, cluster name as project name - no spaces, select who can access database, set up network access, go back to cluster and connect & select connect your application, copy the connection string (generated from connection) for database connection.
-    * select collection, 
+    * select collection
 
-- mongoose installed => npm install mongoose
+- mongoose installed => npm install mongoose      (data modeling library)
+- import mongoose
+- use connect method of mongoose with connection string: mongoose.connect()
 - .env file is to store confidential info: passwords etc then include .env file in .gitignore
 - any file in gitignore is not pushed to github
