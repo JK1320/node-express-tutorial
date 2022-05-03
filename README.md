@@ -54,3 +54,9 @@ Had the following error while testing express route @ auth.js and solved it by u
 - use connect method of mongoose with connection string: mongoose.connect()
 - dotenv (.env)(npm install npm) file is to store confidential info: passwords etc then include dotenv file in .gitignore
 - any file in gitignore is not pushed to github
+
+---------------------------------------
+
+PROJECT 2: STORE API
+
+1, in the starter folder: npm install
